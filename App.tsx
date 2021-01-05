@@ -1,13 +1,15 @@
 import React from 'react';
-import {View, Text, SafeAreaView} from 'react-native';
+import {View, Text, SafeAreaView, ScrollView} from 'react-native';
 
 //import screens
-import {HomeScreen} from './src/screens';
+import {DestinationSearch} from './src/screens';
+import {Post} from './src/components';
+import Feed from './src/assets/data/feed';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <SafeAreaView>
-      <HomeScreen />
+      <DestinationSearch />
     </SafeAreaView>
   );
 };
