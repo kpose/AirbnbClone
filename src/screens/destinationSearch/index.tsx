@@ -14,6 +14,11 @@ const DestinationSearch: React.FC = () => {
         placeholder="Where are you going?"
         value={inputText}
         onChangeText={setInputText}
+        clearButtonMode="while-editing"
+        autoCapitalize="words"
+        autoCompleteType="off"
+        autoCorrect={false}
+        autoFocus={true}
       />
 
       <FlatList
