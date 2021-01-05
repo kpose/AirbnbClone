@@ -1,16 +1,16 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {View, Text, SafeAreaView, ScrollView} from 'react-native';
+import {View, Text, SafeAreaView, ScrollView, StatusBar} from 'react-native';
 
 //import screens
-import {Guest} from './src/screens';
-import {Post} from './src/components';
-import Feed from './src/assets/data/feed';
+import Router from './src/navigation/router';
 
 const App: React.FC = () => {
   return (
-    <SafeAreaView>
-      <Guest />
-    </SafeAreaView>
+    <>
+      <StatusBar barStyle="dark-content" />
+      <Router />
+    </>
   );
 };
 

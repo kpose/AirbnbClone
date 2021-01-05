@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     position: 'absolute',
-    top: 20,
+    top: 50,
     marginHorizontal: 10,
     zIndex: 100,
     width: Dimensions.get('screen').width - 20,
