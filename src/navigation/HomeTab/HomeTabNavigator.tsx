@@ -2,7 +2,7 @@ import React from 'react';
 //import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {HomeScreen} from '../../screens';
-
+import ExploreNavigator from '../ExploreNavigator';
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
@@ -19,7 +19,7 @@ const HomeTabNavigator = () => {
       }}>
       <Tab.Screen
         name="Explore"
-        component={HomeScreen}
+        component={ExploreNavigator}
         options={{
           tabBarIcon: ({color}) => (
             <Fontisto name="search" size={25} color={color} />
