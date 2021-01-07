@@ -61,3 +61,12 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+
+#destinationApi
+/src/screens/destinationSearch/index.tsx
+
+/ios/AirbnbClone/AppDelegate.m
+
+/android/app/src/main/AndroidManifest.xml
+
