@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AirbnbCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AirbnbCloneTests.m */; };
+		09896C4D12CC581E4A823E84 /* libPods-AirbnbClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1814FFF717D674F07F70F7B7 /* libPods-AirbnbClone.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A5A5C485C1A0C455747A53E /* libPods-AirbnbClone-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE97325D50C8D6994A64598 /* libPods-AirbnbClone-tvOSTests.a */; };
-		1EF6C11E1B86B88EADC446AD /* libPods-AirbnbClone-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFD63E61FD3E40ACA47FDD6 /* libPods-AirbnbClone-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* AirbnbCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AirbnbCloneTests.m */; };
+		436ECC3E48F3FB94125AAC14 /* libPods-AirbnbClone-AirbnbCloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9332FB1C94EC4C5629A9446B /* libPods-AirbnbClone-AirbnbCloneTests.a */; };
+		7D43C7A39F727614F3B32DC6 /* libPods-AirbnbClone-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B3DEB4DBA3E35B88DB16BE /* libPods-AirbnbClone-tvOS.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B5D488EFFBABD215A28456E4 /* libPods-AirbnbClone-AirbnbCloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3157FC935B03CC90A7A8A0A7 /* libPods-AirbnbClone-AirbnbCloneTests.a */; };
-		F22048332CB12DFC8AF37490 /* libPods-AirbnbClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E940CE93DDAAC03628BC191 /* libPods-AirbnbClone.a */; };
+		E84DD54991624EE189BB73C0 /* libPods-AirbnbClone-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E2951802427C00565B27B0 /* libPods-AirbnbClone-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* AirbnbCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AirbnbCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirbnbCloneTests.m; sourceTree = "<group>"; };
-		11F538877F200F71D7F365DC /* Pods-AirbnbClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone/Pods-AirbnbClone.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AirbnbClone/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AirbnbClone/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AirbnbClone/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AirbnbClone/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AirbnbClone/main.m; sourceTree = "<group>"; };
-		1EFE479764329DD391485F3B /* Pods-AirbnbClone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOSTests/Pods-AirbnbClone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1814FFF717D674F07F70F7B7 /* libPods-AirbnbClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B3DEB4DBA3E35B88DB16BE /* libPods-AirbnbClone-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2951802427C00565B27B0 /* libPods-AirbnbClone-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		216FA3334713933E7825F494 /* Pods-AirbnbClone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOSTests/Pods-AirbnbClone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AirbnbClone-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirbnbClone-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AirbnbClone-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AirbnbClone-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3157FC935B03CC90A7A8A0A7 /* libPods-AirbnbClone-AirbnbCloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone-AirbnbCloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C39A8B9FF64BB53DA35CEAC /* Pods-AirbnbClone-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOSTests/Pods-AirbnbClone-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E940CE93DDAAC03628BC191 /* libPods-AirbnbClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6339A7E8213BF916EC3107C5 /* Pods-AirbnbClone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOS/Pods-AirbnbClone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5BFE7F6F58340610E82F1A /* Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E14A279D6B38AC1A77288BD /* Pods-AirbnbClone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOS/Pods-AirbnbClone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AirbnbClone/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B7D710A141A218D5C0AAEC1B /* Pods-AirbnbClone-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOS/Pods-AirbnbClone-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D5D46E1724B74DF9075A8003 /* Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D939BB8D757016A019456C46 /* Pods-AirbnbClone-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOS/Pods-AirbnbClone-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		E0690C294EEB5B7015F34D49 /* Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		83191B7033A29B728D1A81AB /* Pods-AirbnbClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone/Pods-AirbnbClone.debug.xcconfig"; sourceTree = "<group>"; };
+		9332FB1C94EC4C5629A9446B /* libPods-AirbnbClone-AirbnbCloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone-AirbnbCloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CF5EFB96E99E8B0E44DE2B /* Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E199C319382DC2327696FD20 /* Pods-AirbnbClone-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone-tvOSTests/Pods-AirbnbClone-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FDB4A6B6FDD8060A13F49521 /* Pods-AirbnbClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone.debug.xcconfig"; path = "Target Support Files/Pods-AirbnbClone/Pods-AirbnbClone.debug.xcconfig"; sourceTree = "<group>"; };
-		FDFD63E61FD3E40ACA47FDD6 /* libPods-AirbnbClone-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFE97325D50C8D6994A64598 /* libPods-AirbnbClone-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirbnbClone-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF43D199776BEE420ECD6AD /* Pods-AirbnbClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbClone.release.xcconfig"; path = "Target Support Files/Pods-AirbnbClone/Pods-AirbnbClone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5D488EFFBABD215A28456E4 /* libPods-AirbnbClone-AirbnbCloneTests.a in Frameworks */,
+				436ECC3E48F3FB94125AAC14 /* libPods-AirbnbClone-AirbnbCloneTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22048332CB12DFC8AF37490 /* libPods-AirbnbClone.a in Frameworks */,
+				09896C4D12CC581E4A823E84 /* libPods-AirbnbClone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF6C11E1B86B88EADC446AD /* libPods-AirbnbClone-tvOS.a in Frameworks */,
+				7D43C7A39F727614F3B32DC6 /* libPods-AirbnbClone-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A5A5C485C1A0C455747A53E /* libPods-AirbnbClone-tvOSTests.a in Frameworks */,
+				E84DD54991624EE189BB73C0 /* libPods-AirbnbClone-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,25 +141,25 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				4E940CE93DDAAC03628BC191 /* libPods-AirbnbClone.a */,
-				3157FC935B03CC90A7A8A0A7 /* libPods-AirbnbClone-AirbnbCloneTests.a */,
-				FDFD63E61FD3E40ACA47FDD6 /* libPods-AirbnbClone-tvOS.a */,
-				FFE97325D50C8D6994A64598 /* libPods-AirbnbClone-tvOSTests.a */,
+				1814FFF717D674F07F70F7B7 /* libPods-AirbnbClone.a */,
+				9332FB1C94EC4C5629A9446B /* libPods-AirbnbClone-AirbnbCloneTests.a */,
+				18B3DEB4DBA3E35B88DB16BE /* libPods-AirbnbClone-tvOS.a */,
+				18E2951802427C00565B27B0 /* libPods-AirbnbClone-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7D7713E7FE3D63D9EAAABB9F /* Pods */ = {
+		5FACE25B2F1179A485B89F6D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FDB4A6B6FDD8060A13F49521 /* Pods-AirbnbClone.debug.xcconfig */,
-				11F538877F200F71D7F365DC /* Pods-AirbnbClone.release.xcconfig */,
-				D5D46E1724B74DF9075A8003 /* Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig */,
-				E0690C294EEB5B7015F34D49 /* Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig */,
-				B7D710A141A218D5C0AAEC1B /* Pods-AirbnbClone-tvOS.debug.xcconfig */,
-				D939BB8D757016A019456C46 /* Pods-AirbnbClone-tvOS.release.xcconfig */,
-				4C39A8B9FF64BB53DA35CEAC /* Pods-AirbnbClone-tvOSTests.debug.xcconfig */,
-				1EFE479764329DD391485F3B /* Pods-AirbnbClone-tvOSTests.release.xcconfig */,
+				83191B7033A29B728D1A81AB /* Pods-AirbnbClone.debug.xcconfig */,
+				FDF43D199776BEE420ECD6AD /* Pods-AirbnbClone.release.xcconfig */,
+				D6CF5EFB96E99E8B0E44DE2B /* Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig */,
+				6E5BFE7F6F58340610E82F1A /* Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig */,
+				6339A7E8213BF916EC3107C5 /* Pods-AirbnbClone-tvOS.debug.xcconfig */,
+				7E14A279D6B38AC1A77288BD /* Pods-AirbnbClone-tvOS.release.xcconfig */,
+				216FA3334713933E7825F494 /* Pods-AirbnbClone-tvOSTests.debug.xcconfig */,
+				E199C319382DC2327696FD20 /* Pods-AirbnbClone-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* AirbnbCloneTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				7D7713E7FE3D63D9EAAABB9F /* Pods */,
+				5FACE25B2F1179A485B89F6D /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,11 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AirbnbCloneTests" */;
 			buildPhases = (
-				B26799382B141170DA29C26E /* [CP] Check Pods Manifest.lock */,
+				BF05B59575803E45D193CBDC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C9E6538C8AECA024AC7C4CC6 /* [CP] Copy Pods Resources */,
+				6C9CA63B085B647C1D3165BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AirbnbClone" */;
 			buildPhases = (
-				118F040513A2EC8CA0E6441F /* [CP] Check Pods Manifest.lock */,
+				41045F8DE659944A5D6D26B1 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B821F1373E6B6725F6347063 /* [CP] Copy Pods Resources */,
+				996DB73743BFF9CC0BE30611 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AirbnbClone-tvOS" */;
 			buildPhases = (
-				B79E79ECA1CFE7EBFEC973A7 /* [CP] Check Pods Manifest.lock */,
+				9BD2FA566B7F87E750AD9F68 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -266,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AirbnbClone-tvOSTests" */;
 			buildPhases = (
-				8570F644F42777F805367DC3 /* [CP] Check Pods Manifest.lock */,
+				2EF4174B53FA530DDE4D979A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -377,28 +377,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		118F040513A2EC8CA0E6441F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AirbnbClone-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,7 +391,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		8570F644F42777F805367DC3 /* [CP] Check Pods Manifest.lock */ = {
+		2EF4174B53FA530DDE4D979A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,7 +413,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B26799382B141170DA29C26E /* [CP] Check Pods Manifest.lock */ = {
+		41045F8DE659944A5D6D26B1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -450,36 +428,66 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AirbnbClone-AirbnbCloneTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AirbnbClone-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B79E79ECA1CFE7EBFEC973A7 /* [CP] Check Pods Manifest.lock */ = {
+		6C9CA63B085B647C1D3165BD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AirbnbClone-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B821F1373E6B6725F6347063 /* [CP] Copy Pods Resources */ = {
+		996DB73743BFF9CC0BE30611 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -531,56 +539,48 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirbnbClone/Pods-AirbnbClone-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C9E6538C8AECA024AC7C4CC6 /* [CP] Copy Pods Resources */ = {
+		9BD2FA566B7F87E750AD9F68 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests-resources.sh",
-				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
-				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			inputFileListPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"$(DERIVED_FILE_DIR)/Pods-AirbnbClone-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AirbnbClone-AirbnbCloneTests/Pods-AirbnbClone-AirbnbCloneTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF05B59575803E45D193CBDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirbnbClone-AirbnbCloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -676,7 +676,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5D46E1724B74DF9075A8003 /* Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig */;
+			baseConfigurationReference = D6CF5EFB96E99E8B0E44DE2B /* Pods-AirbnbClone-AirbnbCloneTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -699,7 +699,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0690C294EEB5B7015F34D49 /* Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig */;
+			baseConfigurationReference = 6E5BFE7F6F58340610E82F1A /* Pods-AirbnbClone-AirbnbCloneTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -719,7 +719,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDB4A6B6FDD8060A13F49521 /* Pods-AirbnbClone.debug.xcconfig */;
+			baseConfigurationReference = 83191B7033A29B728D1A81AB /* Pods-AirbnbClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -742,7 +742,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11F538877F200F71D7F365DC /* Pods-AirbnbClone.release.xcconfig */;
+			baseConfigurationReference = FDF43D199776BEE420ECD6AD /* Pods-AirbnbClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -763,7 +763,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7D710A141A218D5C0AAEC1B /* Pods-AirbnbClone-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6339A7E8213BF916EC3107C5 /* Pods-AirbnbClone-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -791,7 +791,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D939BB8D757016A019456C46 /* Pods-AirbnbClone-tvOS.release.xcconfig */;
+			baseConfigurationReference = 7E14A279D6B38AC1A77288BD /* Pods-AirbnbClone-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -819,7 +819,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C39A8B9FF64BB53DA35CEAC /* Pods-AirbnbClone-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 216FA3334713933E7825F494 /* Pods-AirbnbClone-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -846,7 +846,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1EFE479764329DD391485F3B /* Pods-AirbnbClone-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E199C319382DC2327696FD20 /* Pods-AirbnbClone-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

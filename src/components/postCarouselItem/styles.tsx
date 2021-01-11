@@ -2,20 +2,17 @@ import {StyleSheet, Dimensions} from 'react-native';
 
 export const styles = StyleSheet.create({
   container: {
-    //height: 170,
-    padding: 1,
-    bottom: 5,
-    marginTop: 15,
-    marginRight: 10,
+    height: 150,
+    padding: 5,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 8,
+      height: 5,
     },
-    shadowOpacity: 0.44,
-    shadowRadius: 10.32,
+    shadowOpacity: 0.34,
+    shadowRadius: 6.27,
 
-    elevation: 16,
+    elevation: 10,
   },
 
   innerContainer: {
@@ -26,11 +23,8 @@ export const styles = StyleSheet.create({
   },
   image: {
     height: '100%',
-    //height: Dimensions.get('screen').height / 3.5,
     resizeMode: 'cover',
-    //borderRadius: 15,
     aspectRatio: 1,
-    //aspectRatio: 3 / 2,
   },
 
   description: {
