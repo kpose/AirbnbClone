@@ -14,6 +14,7 @@ export interface PostProps {
   newPrice: number;
   totalPrice: number;
   coordinate: {};
+  description: string;
 }
 
 const SearchResultScreen: React.FC = () => {

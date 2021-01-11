@@ -1,10 +1,12 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native';
+import {View, Text, Image, Pressable} from 'react-native';
 import {styles} from './styles';
 import {PostProps} from '../../screens/searchresult';
+import {useNavigation} from '@react-navigation/native';
 
 const Post: React.FC<{accomodation: PostProps}> = (props) => {
   const {
+    id,
     image,
     type,
     title,
@@ -16,8 +18,13 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
     coordinate,
   } = props.accomodation;
 
+  const navigation = useNavigation();
+  const goToPostPage = () => {
+    navigation.navigate('Post', {postId: id});
+  };
+
   return (
-    <View style={styles.container}>
+    <Pressable onPress={goToPostPage} style={styles.container}>
       <Image style={styles.image} source={{uri: image}} />
 
       <Text style={styles.bedrooms}>
@@ -34,7 +41,7 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
       </Text>
 
       <Text style={styles.totalPrice}> ${totalPrice} Total </Text>
-    </View>
+    </Pressable>
   );
 };
 

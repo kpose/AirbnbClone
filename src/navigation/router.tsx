@@ -2,7 +2,7 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
-import {DestinationSearch, Guest} from '../screens';
+import {DestinationSearch, Guest, AccomodationScreen} from '../screens';
 import HomeTabNavigator from './HomeTab/HomeTabNavigator';
 
 const Stack = createStackNavigator();
@@ -30,6 +30,13 @@ const Router = () => {
           component={Guest}
           options={{
             title: 'How many people',
+          }}
+        />
+        <Stack.Screen
+          name="Post"
+          component={AccomodationScreen}
+          options={{
+            title: 'Accomodation',
           }}
         />
       </Stack.Navigator>
