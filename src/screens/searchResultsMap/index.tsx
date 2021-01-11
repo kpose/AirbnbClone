@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, FlatList} from 'react-native';
 import MapView, {Marker, PROVIDER_GOOGLE} from 'react-native-maps';
 import places from '../../assets/data/feed';
 import {CustomMarker, PostCarousel} from '../../components';
@@ -27,8 +27,14 @@ const SearchResultsMap = () => {
           />
         ))}
       </MapView>
-      <View style={{position: 'absolute', bottom: 40}}>
-        <PostCarousel accomodation={places[0]} />
+      <View style={{position: 'absolute', bottom: 20}}>
+        <FlatList
+          data={places}
+          renderItem={({item}) => <PostCarousel accomodation={item} />}
+          horizontal
+          showsHorizontalScrollIndicator={false}
+        />
+        {/* <PostCarousel accomodation={places[0]} /> */}
       </View>
     </View>
   );
