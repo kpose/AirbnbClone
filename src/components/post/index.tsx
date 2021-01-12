@@ -4,6 +4,8 @@ import {styles} from './styles';
 import {PostProps} from '../../screens/searchresult';
 import {useNavigation} from '@react-navigation/native';
 
+const days = 7;
+
 const Post: React.FC<{accomodation: PostProps}> = (props) => {
   const {
     id,
@@ -40,7 +42,7 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
         <Text style={styles.newPrice}> ${newPrice}</Text> / night
       </Text>
 
-      <Text style={styles.totalPrice}> ${totalPrice} Total </Text>
+      <Text style={styles.totalPrice}> ${newPrice * days} Total </Text>
     </Pressable>
   );
 };
