@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import {View, Text, Pressable} from 'react-native';
 import {styles} from './styles';
-import {useNavigation} from '@react-navigation/native';
+import {useNavigation, useRoute} from '@react-navigation/native';
 
 const Guest: React.FC = () => {
   const navigation = useNavigation();
+  const route = useRoute();
   const [adults, setAdults] = useState<number>(0);
   const [children, setChildren] = useState<number>(0);
   const [infants, setInfants] = useState<number>(0);
@@ -83,6 +84,7 @@ const Guest: React.FC = () => {
               screen: 'SearchResults',
               params: {
                 guests: adults + children,
+                viewport: route.params.viewport,
               },
             },
           })

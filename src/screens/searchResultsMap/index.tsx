@@ -7,9 +7,8 @@ import {listAccomodations} from '../../graphql/queries.js';
 
 const SearchResultsMap = (props) => {
   const [selectedPlaceID, setSelectedPlaceID] = useState<string>();
-  const [accomodation, setAccomodation] = useState([]);
 
-  const {guests} = props;
+  const {accomodations} = props;
 
   const WIDTH = useWindowDimensions().width;
 
@@ -25,35 +24,15 @@ const SearchResultsMap = (props) => {
   });
 
   useEffect(() => {
-    const fetchAccomodation = async () => {
-      try {
-        const accomodationResult = await API.graphql(
-          graphqlOperation(listAccomodations, {
-            filter: {
-              maxGuests: {
-                ge: guests.guests,
-              },
-            },
-          }),
-        );
-        setAccomodation(accomodationResult.data.listAccomodations.items);
-      } catch (e) {
-        console.log(e);
-      }
-    };
-    fetchAccomodation();
-  }, []);
-
-  useEffect(() => {
     if (!selectedPlaceID || !flatlist) {
       return;
     }
-    const index = accomodation.findIndex(
+    const index = accomodations.findIndex(
       (place) => place.id === selectedPlaceID,
     );
     flatlist.current.scrollToIndex({index});
 
-    const selectedPlace = accomodation[index];
+    const selectedPlace = accomodations[index];
     const region = {
       latitude: selectedPlace.latitude,
       longitude: selectedPlace.longitude,
@@ -75,7 +54,7 @@ const SearchResultsMap = (props) => {
           latitudeDelta: 0.8,
           longitudeDelta: 0.8,
         }}>
-        {accomodation.map((place) => (
+        {accomodations.map((place) => (
           <CustomMarker
             isSelected={place.id === selectedPlaceID}
             key={place.id}
@@ -88,7 +67,7 @@ const SearchResultsMap = (props) => {
       <View style={{position: 'absolute', bottom: 25}}>
         <FlatList
           ref={flatlist}
-          data={accomodation}
+          data={accomodations}
           renderItem={({item}) => <PostCarousel accomodation={item} />}
           horizontal
           showsHorizontalScrollIndicator={false}

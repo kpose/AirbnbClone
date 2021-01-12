@@ -17,6 +17,9 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
     description,
   } = props.accomodation;
 
+  console.log('imafffge');
+  console.log(image);
+
   return (
     <ScrollView>
       <View style={styles.container}>
