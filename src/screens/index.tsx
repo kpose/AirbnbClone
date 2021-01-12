@@ -4,6 +4,7 @@ import DestinationSearch from './destinationSearch';
 import Guest from './guest';
 import SearchResultsMap from './searchResultsMap';
 import AccomodationScreen from './AccomodationScreen';
+import Profile from './profile';
 
 export {
   HomeScreen,
@@ -12,4 +13,5 @@ export {
   Guest,
   SearchResultsMap,
   AccomodationScreen,
+  Profile,
 };
