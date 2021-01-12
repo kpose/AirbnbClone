@@ -5,9 +5,11 @@ import {CustomMarker, PostCarousel} from '../../components';
 import {API, graphqlOperation} from 'aws-amplify';
 import {listAccomodations} from '../../graphql/queries.js';
 
-const SearchResultsMap = () => {
+const SearchResultsMap = (props) => {
   const [selectedPlaceID, setSelectedPlaceID] = useState<string>();
   const [accomodation, setAccomodation] = useState([]);
+
+  const {guests} = props;
 
   const WIDTH = useWindowDimensions().width;
 
@@ -26,7 +28,13 @@ const SearchResultsMap = () => {
     const fetchAccomodation = async () => {
       try {
         const accomodationResult = await API.graphql(
-          graphqlOperation(listAccomodations),
+          graphqlOperation(listAccomodations, {
+            filter: {
+              maxGuests: {
+                ge: guests.guests,
+              },
+            },
+          }),
         );
         setAccomodation(accomodationResult.data.listAccomodations.items);
       } catch (e) {
