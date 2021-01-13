@@ -5,6 +5,8 @@ import Guest from './guest';
 import SearchResultsMap from './searchResultsMap';
 import AccomodationScreen from './AccomodationScreen';
 import Profile from './profile';
+import Signup from './Signup';
+import Signin from './Signin';
 
 export {
   HomeScreen,
@@ -14,4 +16,6 @@ export {
   SearchResultsMap,
   AccomodationScreen,
   Profile,
+  Signup,
+  Signin,
 };
