@@ -22,7 +22,7 @@ const PostCarousel: React.FC<{accomodation: PostProps}> = (props) => {
 
   const navigation = useNavigation();
   const goToPostPage = () => {
-    navigation.navigate('Post', {postId: id});
+    navigation.navigate('Post', {post: props.accomodation});
   };
 
   return (

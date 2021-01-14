@@ -3,7 +3,9 @@ import {View, Text, Image, ScrollView} from 'react-native';
 import {styles} from './styles';
 import {PostProps} from '../../screens/searchresult';
 
-const Post: React.FC<{accomodation: PostProps}> = (props) => {
+const days = 7;
+
+const DetailedPost = (props) => {
   const {
     image,
     type,
@@ -15,10 +17,7 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
     totalPrice,
     coordinate,
     description,
-  } = props.accomodation;
-
-  console.log('imafffge');
-  console.log(image);
+  } = props.post;
 
   return (
     <ScrollView>
@@ -38,11 +37,11 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
           <Text style={styles.newPrice}> ${newPrice}</Text> / night
         </Text>
 
-        <Text style={styles.totalPrice}> ${totalPrice} Total </Text>
+        <Text style={styles.totalPrice}> ${newPrice * days} Total </Text>
         <Text style={styles.longDescription}>{description}</Text>
       </View>
     </ScrollView>
   );
 };
 
-export default Post;
+export default DetailedPost;

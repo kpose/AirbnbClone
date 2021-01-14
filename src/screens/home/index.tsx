@@ -19,7 +19,9 @@ const HomeScreen = () => {
         style={styles.image}>
         <Text style={styles.title}>Go Near!</Text>
 
-        <Pressable style={styles.button} onPress={() => console.log('pressed')}>
+        <Pressable
+          style={styles.button}
+          onPress={() => navigation.navigate('Destination Search')}>
           <Text style={styles.buttonText}> Explore Nearby Places </Text>
         </Pressable>
       </ImageBackground>

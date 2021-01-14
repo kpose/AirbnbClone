@@ -21,8 +21,9 @@ const Post: React.FC<{accomodation: PostProps}> = (props) => {
   } = props.accomodation;
 
   const navigation = useNavigation();
+
   const goToPostPage = () => {
-    navigation.navigate('Post', {postId: id});
+    navigation.navigate('Post', {post: props.accomodation});
   };
 
   return (

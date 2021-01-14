@@ -5,16 +5,16 @@ import {styles} from './styles';
 import {useRoute} from '@react-navigation/native';
 
 import places from '../../assets/data/feed';
-const post = places[0];
+//const post = places[0];
 
 const AccomodationScreen = () => {
   const route = useRoute();
 
-  const post = places.find((place) => place.id === route.params.postId);
+  const post = route.params.post;
 
   return (
     <View style={{backgroundColor: '#fff'}}>
-      <DetailedPost accomodation={post} />
+      <DetailedPost post={post} />
     </View>
   );
 };
