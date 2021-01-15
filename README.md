@@ -9,21 +9,28 @@ This project was bootstrapped with [Create React Native App](https://github.com/
 ### Technologies Used
 
 [React Native](https://reactnative.dev)
+
 [Typescript](https://www.typescriptlang.org)
+
 [AWS Amplify](https://docs.amplify.aws)
+
 [GraphQl](https://graphql.org)
+
 [React Navigation](https://reactnavigation.org)
+
 [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
+
 [react native maps](https://github.com/react-native-community/react-native-maps#readme)
+
 [react native google places autocomplete](https://github.com/FaridSafi/react-native-google-places-autocomplete#readme)
 
 ## Project Screen Shots
 
-![welcome](screenshots/welcome.jpg)
-![search](screenshots/search.jpg)
-![map](screenshots/map.jpg)
-![guest](screenshots/guest.jpg)
-![details](screenshots/details.jpg)
+![welcome](screenshots/welcome.png)
+![search](screenshots/search.png)
+![map](screenshots/map.png)
+![guest](screenshots/guest.png)
+![details](screenshots/details.png)
 
 ## Installation and Setup Instructions
 
